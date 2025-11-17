@@ -19,7 +19,7 @@ export default function SpecialOrders(){
         viewport={{once:false, amount:0.3}}
 
        
-        className="lg:w-48 w-32 bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
+        className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
           <img src="food1.png"
           alt="meat suya"
@@ -32,7 +32,7 @@ export default function SpecialOrders(){
          
          <p className="text-[10px] text-center mb-2">with salad</p>
           <h3 className="text-[8px] mb-1 text-center">⭐⭐⭐⭐⭐</h3>
-     <button className="bg-orange-500 rounded-2xl px-3 text-white mt-2 text-sm mb-1">+Add</button>
+     <button className="bg-orange-500 rounded-2xl px-3 text-white mt-2 text-md mb-2">+Add</button>
         </motion.div>
         <motion.div 
         initial={{opacity: 0, y:50}}
@@ -40,7 +40,7 @@ export default function SpecialOrders(){
         transition={{duration: 0.8, ease: "easeOut"}}
         viewport={{once:false, amount:0.3}}
 
-        className="lg:w-48 w-32 bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
+        className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
           <img src="food2.png"
           alt="fride rice"
@@ -52,7 +52,7 @@ export default function SpecialOrders(){
          
          <p className="text-[10px] text-center mb-2">with chicken</p>
           <h3 className="text-[8px] mb-1 text-center">⭐⭐⭐⭐⭐</h3>
-        <button className="bg-orange-500 rounded-2xl px-3 text-white text-sm mt-2 mb-1">+Add</button> 
+        <button className="bg-orange-500 rounded-2xl px-3 text-white text-md mt-2 mb-2">+Add</button> 
         </motion.div>
         <motion.div 
         initial={{opacity: 0, y:50}}
@@ -60,7 +60,7 @@ export default function SpecialOrders(){
         transition={{duration: 0.8, ease: "easeOut"}}
         viewport={{once:false, amount:0.3}}
  
-        className="lg:w-48 w-32 bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
+        className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
           <img src="food3.png"
           alt="chicken"
@@ -72,7 +72,7 @@ export default function SpecialOrders(){
          
          <p className="text-[10px] text-center mb-2">with egg</p>
           <h3 className="text-[8px] mb-1 text-center">⭐⭐⭐⭐⭐</h3>
-           <button className="bg-orange-500 rounded-2xl px-3 text-white text-sm mt-2 mb-1">+Add</button>
+           <button className="bg-orange-500 rounded-2xl px-3 text-white text-md mt-2 mb-2">+Add</button>
         </motion.div>
         <motion.div 
         initial={{opacity: 0, y:50}}
@@ -80,7 +80,7 @@ export default function SpecialOrders(){
         transition={{duration: 0.8, ease: "easeOut"}}
         viewport={{once:false, amount:0.3}}
     
-        className="lg:w-48 w-32 bg-white shadow-lg flex px-2 mb-5 flex-col  rounded-lg hover:scale-[1.085] border-t">
+        className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col  rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
           <img src="food4.png"
           alt="pizza"
@@ -92,7 +92,7 @@ export default function SpecialOrders(){
          
          <p className="text-[10px] text-center mb-2">with tomatoes</p>
           <h3 className="text-[8px] mb-1 text-center">⭐⭐⭐⭐⭐</h3>
-          <button className="bg-orange-500 rounded-2xl px-3 mt-2 text-white text-sm mb-1">+Add</button>
+          <button className="bg-orange-500 rounded-2xl px-3 mt-2 text-white text-md mb-2">+Add</button>
         </motion.div>
         <div>
         <h2 className="font-semibold font-[poppins] text-md lg:text-lg">Every Meal is a Happy Meal</h2>

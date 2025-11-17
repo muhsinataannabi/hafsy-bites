@@ -12,10 +12,10 @@ export default function Hero() {
     className="lg:flex w-full min-h-screen px-5 pt-32 justify-start lg:gap-10">
       <header>
         <h2
-        className="font-semibold text-3xl font-[poppins] leading-normal lg:text-xl">
+        className="font-semibold text-3xl font-[poppins] leading-normal lg:text-6xl">
           Enjoy <span className="text-orange-500">Delicious Foods </span>that speaks louder than Words.
         </h2>
-        <p className="text-xs font-sans lg:text-sm">
+        <p className="text-xs font-sans lg:text-md">
           Delicious food not only satisfies your hunger but also boosts your mood, strengthens social bonds, and creates lasting memories.
         </p>
         <div className="flex items-center mt-2 transition duration-300">
@@ -25,11 +25,11 @@ export default function Hero() {
         </div>
       </header>
       <aside>
-        <div className="w-64 h-64 bg-orange-500 rounded-full mt-10 lg:mt-0 relative lg:w-80 lg:h-80">
+        <div className="w-64 h-64 bg-orange-500 rounded-full mt-10 lg:mt-0 relative lg:w-96 lg:h-96">
           <img src="food.png"
           alt="food image"
           width={200}
-          className="absolute top-0 left-0 lg:w-300"
+          className="absolute top-0 left-0 lg:w-400"
           />
         </div>
       </aside>

@@ -43,7 +43,7 @@ export default function Footer() {
           {/* Navigation Links */}
           <div className="flex flex-col items-center">
             <h3 className="font-semibold text-orange-800 mb-4 text-lg">Quick Links</h3>
-            <ul className="space-y-3">
+            <ul className="space-x-4 flex justify-center hover:border-b border-orange-800">
               {navLinks.map((link) => (
                 <li key={link.name}>
                   <a
@@ -77,16 +77,12 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-sm text-orange-600 mt-6 text-center md:text-right max-w-xs">
-              Join our sweet community and never miss a treat!
-            </p>
           </div>
         </div>
-
-        {/* Bottom Bar */}
+          {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-orange-200 text-center">
           <p className="text-sm text-orange-600">
-            Made with 🍰 and passion in Nigeria
+            Made it Delicious with passion in Nigeria
           </p>
         </div>
       </div>

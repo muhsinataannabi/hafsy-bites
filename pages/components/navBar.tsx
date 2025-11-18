@@ -13,6 +13,7 @@ export default function Navbar(){
       <div className="flex justify-between items-center max-w-6xl mx-auto px-4 py-3">
          <img src="./logo.png"
          alt="logo"
+         priority
          width={80}
          />
         

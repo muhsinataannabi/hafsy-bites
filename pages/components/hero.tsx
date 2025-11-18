@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { ShoppingCart } from "lucide-react";
+import Image from "next/image";
 export default function Hero() {
   return (
     <motion.section 
@@ -26,10 +27,12 @@ export default function Hero() {
       </header>
       <aside>
         <div className="w-64 h-64 bg-orange-500 rounded-full mt-10 lg:mt-0 relative lg:w-96 lg:h-96">
-          <img src="./food.png"
+          <img src="/food.png"
           alt="food image"
           width={200}
-          priority
+          priority={false}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           className="absolute top-0 left-0 lg:w-400"
           />
         </div>

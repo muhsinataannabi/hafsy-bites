@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function Testimonials(){
   return(
     <motion.div
@@ -11,9 +12,11 @@ export default function Testimonials(){
     className="border-t py-5">
             <h1 className="text-center text-2xl font-semibold text-orange-500 lg:text-lg">Testimonials</h1>
     <section className="mt-8 px-3 bg-orange-100 flex w-full h-32  px-5 py-3 gap-5 mb-10 lg:h-48">
-      <img src="./chief.png"
+      <img src="/chief.png"
       alt="chief-cook"
-      priority
+      priority={false}
+      placeholder="blur"
+      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
       className="-mt-8 lg:w-200"
       />
       
@@ -27,9 +30,12 @@ export default function Testimonials(){
           
           ⭐⭐⭐⭐⭐
           </pre>
-<img src="./profile.png"
+<img src="/profile.png"
        alt="profile"
        width={18}
+       priority={false}
+       placeholder="blur"
+       blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
        className="mb-1 lg:w-30 lg:mb-3"
        />
         </div>

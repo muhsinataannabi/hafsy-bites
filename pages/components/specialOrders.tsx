@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function SpecialOrders(){
   return(
     <div
@@ -24,7 +25,9 @@ export default function SpecialOrders(){
           <img src="./food1.png"
           alt="meat suya"
           width={100}
-          priority
+          priority={false}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           className="-mt-10 -mr-6"
           />
           </div>
@@ -43,9 +46,12 @@ export default function SpecialOrders(){
 
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="./food2.png"
+          <img src="/food2.png"
           alt="fride rice"
           width={100}
+          priority={false}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           className="-mt-10 -mr-6"
           />
           </div>
@@ -63,9 +69,12 @@ export default function SpecialOrders(){
  
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="./food3.png"
+          <img src="/food3.png"
           alt="chicken"
           width={100}
+          priority={false}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           className="-mt-10 -mr-6"
           />
           </div>
@@ -83,9 +92,12 @@ export default function SpecialOrders(){
     
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col  rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="./food4.png"
+          <img src="/food4.png"
           alt="pizza"
           width={100}
+          priority={false}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           className="-mt-10 -mr-6"
           />
           </div>

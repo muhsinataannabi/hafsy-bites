@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Logo & Copyright */}
           <div className="flex flex-col items-center md:items-start">
             <img
-              src="/logo.png"
+              src="./logo.png"
               alt="Hafsy Bites Logo"
               className="w-16 h-16 mb-4 object-contain drop-shadow-md"
             />

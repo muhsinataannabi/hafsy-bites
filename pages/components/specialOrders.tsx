@@ -21,7 +21,7 @@ export default function SpecialOrders(){
        
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="/food1.png"
+          <img src="./food1.png"
           alt="meat suya"
           width={100}
           priority
@@ -43,7 +43,7 @@ export default function SpecialOrders(){
 
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="/food2.png"
+          <img src="./food2.png"
           alt="fride rice"
           width={100}
           className="-mt-10 -mr-6"
@@ -63,7 +63,7 @@ export default function SpecialOrders(){
  
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="/food3.png"
+          <img src="./food3.png"
           alt="chicken"
           width={100}
           className="-mt-10 -mr-6"
@@ -83,7 +83,7 @@ export default function SpecialOrders(){
     
         className="lg:w-64 w-[40%] bg-white shadow-lg flex px-2 mb-5 flex-col  rounded-lg hover:scale-[1.085] border-t">
           <div className="flex justify-end">
-          <img src="/food4.png"
+          <img src="./food4.png"
           alt="pizza"
           width={100}
           className="-mt-10 -mr-6"

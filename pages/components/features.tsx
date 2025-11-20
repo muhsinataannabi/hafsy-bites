@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 import { Truck,CalendarCheck,ShoppingCart } from "lucide-react";
-
+//implentint the features as array of objects.
 export default function Features(){
   return(
     <motion.section 

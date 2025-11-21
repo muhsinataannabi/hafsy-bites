@@ -1,27 +1,32 @@
 "use client";
 import Image from "next/image";
 import Card from "./ui/Card";
-import { food1, food2, food3, food4 } from "../../public/image/index";
 
 export default function SpecialOrders() {
   const specialOrders = [
     {
       id: 1,
       title: "Meat Suya",
-      img: food1,
+      img: "/image/food1.png",
       desc: "with salad",
     },
     {
       id: 2,
       title: "Fride Rice",
-      img: food2,
+      img: "/image/food2.png",
       desc: "with chicken",
     },
     {
       id: 3,
       title: "Chicken",
-      img: food3,
+      img: "/image/food3.png",
       desc: "with egg",
+    },
+    {
+      id: 4,
+      title: "Pizza",
+      img: "/image/food4.png",
+      desc: "with tomatoes",
     },
   ];
 

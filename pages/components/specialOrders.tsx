@@ -24,7 +24,8 @@ export default function SpecialOrders(){
       desc: "with egg"
     },
   ]
-  
+      return(
+        <div>
         {specialOrders.map((order, index)=>(
           <Card 
           key={index}

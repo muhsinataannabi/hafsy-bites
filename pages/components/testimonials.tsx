@@ -14,6 +14,8 @@ export default function Testimonials(){
     <section className="mt-8 px-3 bg-orange-100 flex w-full h-32  px-5 py-3 gap-5 mb-10 lg:h-48">
       <img src="/chief.png"
       alt="chief-cook"
+      width={100}
+      height={100}
       priority={false}
       placeholder="blur"
       blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
@@ -33,6 +35,7 @@ export default function Testimonials(){
 <img src="/profile.png"
        alt="profile"
        width={18}
+       height={18}
        priority={false}
        placeholder="blur"
        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="

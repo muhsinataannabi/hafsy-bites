@@ -15,6 +15,7 @@ export default function Navbar(){
          alt="logo"
          priority
          width={80}
+         height={20}
          />
         
         {/* laptop only*/}

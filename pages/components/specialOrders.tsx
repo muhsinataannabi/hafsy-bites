@@ -7,31 +7,31 @@ export default function SpecialOrders() {
     {
       id: 1,
       title: "Meat Suya",
-      img: "/image/food1.png",
+      img: "/food1.png",
       desc: "with salad",
     },
     {
       id: 2,
       title: "Fride Rice",
-      img: "/image/food2.png",
+      img: "/food2.png",
       desc: "with chicken",
     },
     {
       id: 3,
       title: "Chicken",
-      img: "/image/food3.png",
+      img: "/food3.png",
       desc: "with egg",
     },
     {
       id: 4,
       title: "Pizza",
-      img: "/image/food4.png",
+      img: "/food4.png",
       desc: "with tomatoes",
     },
   ];
 
   return (
-    <div>
+    <div className="mt-10 border-t ">
       <div>
         {specialOrders.map((order, index) => (
           <Card
@@ -43,7 +43,6 @@ export default function SpecialOrders() {
         ))}
       </div>
 
-      <div className="flex justify-center mt-10">
         <div>
           <h2 className="font-semibold font-[poppins] text-md lg:text-lg">
             Every Meal is a Happy Meal
@@ -54,7 +53,6 @@ export default function SpecialOrders() {
             --MFK.Fisher
           </pre>
         </div>
-      </div>
     </div>
   );
 }

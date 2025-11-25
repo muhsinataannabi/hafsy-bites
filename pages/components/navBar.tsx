@@ -25,8 +25,8 @@ export default function Navbar(){
         
         {/* laptop only*/}
         
-        <nav className="hidden lg:flex text-md transition duration:300">
-          <ul className="space-x-8">
+        <nav>
+          <ul className="space-x-8 hidden lg:flex text-md transition duration:300">
             {navLinks.map((navLink,index) => (
             <li key={index}>
           <Link href={navLink.href} className="hover:text-orange-600">{navLink.name}</Link>

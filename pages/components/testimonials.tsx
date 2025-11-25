@@ -16,9 +16,6 @@ export default function Testimonials(){
       alt="chief-cook"
       width={100}
       height={100}
-      priority={false}
-      placeholder="blur"
-      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
       className="-mt-8 lg:w-200"
       />
       
@@ -36,9 +33,6 @@ export default function Testimonials(){
        alt="profile"
        width={18}
        height={18}
-       priority={false}
-       placeholder="blur"
-       blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
        className="mb-1 lg:w-30 lg:mb-3"
        />
         </div>

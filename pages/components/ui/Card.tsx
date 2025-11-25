@@ -25,10 +25,6 @@ return (
             alt="meat suya"
             width={100}
             height={100}
-            priority={false}
-            placeholder="blur"
-            className="-mt-10 -mr-6"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           />
           </div>
          <h3 className="text-[15px] font-semibold text-center">{title}</h3>

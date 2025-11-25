@@ -31,9 +31,6 @@ export default function Hero() {
           alt="food image"
           width={200}
           height={200}
-          priority={false}
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
           className="absolute top-0 left-0 lg:w-400"
           />
         </div>

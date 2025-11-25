@@ -31,8 +31,9 @@ export default function SpecialOrders() {
   ];
 
   return (
-    <div className="mt-10 border-t ">
-      <div>
+    <div className="border-t mt-10 pt-20">
+          <h4 className="font-[poppins] text-2xl font-semibold mb-10 text-center underline">Our <span className="text-orange-500">special</span> orders</h4>
+      <div className="flex flex-wrap gap-10 justify-center">
         {specialOrders.map((order, index) => (
           <Card
             key={index}
@@ -43,7 +44,7 @@ export default function SpecialOrders() {
         ))}
       </div>
 
-        <div>
+        <div className="px-5 py-3 flex flex-col justify-center mt-10">
           <h2 className="font-semibold font-[poppins] text-md lg:text-lg">
             Every Meal is a Happy Meal
           </h2>

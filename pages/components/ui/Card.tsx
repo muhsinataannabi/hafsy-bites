@@ -25,6 +25,7 @@ return (
             alt="meat suya"
             width={100}
             height={100}
+            className="-mt-8 -mr-6"
           />
           </div>
          <h3 className="text-[15px] font-semibold text-center">{title}</h3>
